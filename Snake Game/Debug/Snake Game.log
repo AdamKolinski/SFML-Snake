@@ -1,2 +1,3 @@
 ﻿  MainLoop.cpp
+e:\visual studio workspace\snake game\snake game\mainloop.cpp(26): warning C4091: "extern ": zignorowano na lewo od "GameStates" podczas gdy brak deklaracji zmiennej
   Snake Game.vcxproj -> E:\Visual Studio Workspace\Snake Game\Debug\Snake Game.exe
