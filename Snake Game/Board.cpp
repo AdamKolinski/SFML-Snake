@@ -31,6 +31,15 @@ void Board::drawBoard(RenderWindow & window, int snakeLength)
 	}
 }
 
+void Board::resetBoard()
+{
+	for (int i = 0; i < 42; i++) {
+		for (int j = 0; j < 24; j++) {
+			this->mapStates[i][j] = 0;
+		}
+	}
+}
+
 void Board::draw(sf::RenderTarget& target, sf::RenderStates state) const {
 	target.draw(this->shape, state);
 }

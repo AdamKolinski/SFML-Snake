@@ -14,6 +14,7 @@ public:
 
 	void setMapState(int xPos, int yPos, int snakeLength);
 	void drawBoard(RenderWindow& window, int snakeLength);
+	void resetBoard();
 
 private:
 	void draw(RenderTarget& target, RenderStates state) const override;

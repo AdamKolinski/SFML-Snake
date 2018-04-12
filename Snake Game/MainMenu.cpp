@@ -18,8 +18,7 @@ MainMenu::MainMenu(int t_WIDTH, int t_HEIGHT, sf::Color t_bg_color)
 
 	if (!this->font.loadFromFile("arial.ttf"))
 	{
-		printf("dupa");
-		// error...
+		printf("Cannot load font!");
 	}
 
 	this->text1.setFont(font);
@@ -47,18 +46,12 @@ void MainMenu::drawMainMenu(RenderWindow & window)
 	window.draw(text1);
 	window.draw(text2);
 
-
 	window.display();
 
 	while (window.pollEvent(this->event)) {
 		if (this->event.type == sf::Event::Closed) //If event is close button, close the window
 		{
 			changeGameState(0);
-			printf("dupa");
-		}
-		if (this->event.type == sf::Event::KeyReleased && event.key.code == sf::Keyboard::Space)
-		{
-			printf("Spacja");
 		}
 		if (this->event.type == sf::Event::KeyReleased && event.key.code == sf::Keyboard::W)
 		{
@@ -100,8 +93,6 @@ void MainMenu::drawMainMenu(RenderWindow & window)
 			else if (this->activeButton == 0) changeGameState(1);
 		}
 	}
-	
-	std::cout << this->activeButton << std::endl;
 }
 
 void MainMenu::changeGameState(int toState)
