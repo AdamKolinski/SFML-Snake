@@ -1,0 +1,15 @@
+﻿  Board.cpp
+Board.cpp(26): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+  Food.cpp
+Food.cpp(16): warning C4244: "argument": konwersja z "time_t" do "unsigned int", możliwa utrata danych
+Food.cpp(20): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+  MainLoop.cpp
+  MainMenu.cpp
+  Snake.cpp
+Snake.cpp(9): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+  Trwa generowanie kodu
+  0 of 172 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Zakończono generowanie kodu
+  Snake Game.vcxproj -> E:\Visual Studio Workspace\Snake Game\Release\Snake Game.exe
